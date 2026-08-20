@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maqolalar — Ism Familiya</title>
+<meta name="description" content="Ism Familiya yozgan barcha maqolalar: dasturlash, texnologiya va shaxsiy tajribalar haqida.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="../index.html" class="logo">ism<span>.dev</span></a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menyuni ochish">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../index.html">bosh</a></li>
+      <li><a href="../about.html">men-haqimda</a></li>
+      <li><a href="index.html" aria-current="page">maqolalar</a></li>
+      <li><a href="../projects/index.html">loyihalar</a></li>
+      <li><a href="../contact.html">aloqa</a></li>
+    </ul>
+    <div class="nav-right">
+      <button id="theme-toggle" aria-label="Mavzuni almashtirish">☾</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section container" style="padding-top:56px;">
+    <span class="prompt mono">ls maqolalar/</span>
+    <h1>Maqolalar</h1>
+    <p style="color:var(--text-muted); max-width:60ch; margin-bottom:32px;">O'rganganlarim, tajribalarim va fikrlarim haqida yozgan barcha maqolalar shu yerda.</p>
+
+    <div class="card-grid" data-articles>
+      <p class="empty-state">Yuklanmoqda…</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <span>© 2026 Ism Familiya</span>
+  <span><a href="../contact.html">Bog'lanish</a></span>
+</footer>
+
+<script src="../assets/js/theme.js"></script>
+<script src="../assets/js/articles.js"></script>
+</body>
+</html>
