@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Shaxsiy veb-sayt",
+    "description": "GitHub Pages'da bepul joylashtirilgan, Markdown asosidagi blog va portfolio sayti.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "image": "",
+    "github": "https://github.com/username/username.github.io",
+    "demo": "https://username.github.io"
+  },
+  {
+    "title": "Vazifalar ro'yxati (To-Do App)",
+    "description": "Kundalik vazifalarni qo'shish, belgilash va o'chirish imkonini beruvchi sodda veb-ilova.",
+    "tech": ["JavaScript", "LocalStorage"],
+    "image": "",
+    "github": "https://github.com/username/todo-app",
+    "demo": ""
+  }
+]
